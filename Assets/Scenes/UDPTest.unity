@@ -152,7 +152,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1a3f07cc5c71143d3850616072501144, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  port: 24000
+  port: 55555
 --- !u!4 &118139490
 Transform:
   m_ObjectHideFlags: 0
@@ -475,8 +475,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 28a87bb3f3d964cbb9ac2879bef46cb1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  port: 25550
-  targetPort: 24000
+  port: 66666
+  targetPort: 55555
 --- !u!136 &2006397367
 CapsuleCollider:
   m_ObjectHideFlags: 0

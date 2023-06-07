@@ -24,7 +24,7 @@ namespace UserDatagramProtocol
             var rotation = transform.rotation;
             var posMessage = $"Position:x={position.x}, y={position.y}, z={position.z}";
             var rotMessage = $"Rotation:x={rotation.x}, y={rotation.y}, z={rotation.z}";
-            if (_previousPos != posMessage /*|| _previousRot == rotMessage*/)
+            if (_previousPos != posMessage)
             {
                 var posArray = Encoding.ASCII.GetBytes(posMessage);
                 _udpClient.Send(posArray, posArray.Length, "localhost", targetPort);
